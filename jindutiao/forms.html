@@ -1,0 +1,37 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>Document</title>
+    <style type="text/css">
+        #pat {  width:400px;  height:30px; border:5px solid blue;}
+        #son {  width:0; height:100%; background-color:red;}
+    </style>
+    <script type="text/javascript">
+        window.onload = function(){
+            var fm = document.getElementsByTagName('form')[0];
+            fm.onsubmit = function (evt) {
+                var xhr = new XMLHttpRequest();
+                xhr.upload.onprogress = function (et) {
+                    var loaded = et.loaded;
+                    var total  = et.total;
+                    var pre = Math.floor((loaded/total)*100);
+                    document.getElementById('son').innerHTML = pre+'%';
+                    document.getElementById('son').style.width = pre+'%';
+                }
+                evt.preventDefault();
+            }
+        }
+    </script>
+</head>
+<body>
+<form action="./form.php" method="post">
+    <h2>form表单</h2>
+    <p>用户名:<input type="text" id="username" name="un" /></p>
+    <p>密码:<input type="password" id="userpass" name="pwd" /></p>
+    <div id="pat"><div id="son"></div></div>
+    <p><input type="file" id="userimage" name="pic" /></p>
+    <p><input type="submit" value="注册" /></p>
+</form>
+</body>
+</html>
