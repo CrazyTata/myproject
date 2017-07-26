@@ -1,0 +1,59 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>三级联动菜单xmlshuju</title>
+    <script src="jquery.js"></script>
+    <script type="text/javascript">
+        var regin = '';
+        $(function(){
+            $.get('ChinaArea.xml',function(msg){
+                regin = msg;
+                $(msg).find('province').each(function(){
+                    var id = $(this).attr('provinceID');
+                    var area_name = $(this).attr('province');
+                    var str = "<option value='"+id+"'>"+area_name+"</option>";
+                    $('#province').append(str);
+                });
+            },'xml');
+        });
+        function city(){
+            $('#city').empty();
+            $('#city').append("<option>请选择</option>");
+            var parent_id = $('#province option:selected').val();
+            $.get('ChinaArea.xml',function(){
+                $(regin).find('[provinceID='+parent_id+']').find('City').each(function(){
+                    var id = $(this).attr('CityID');
+                    var area_name = $(this).attr('City');
+                    var str = "<option value='"+id+"'>"+area_name+"</option>";
+                    $('#city').append(str);
+                });
+            },'xml');
+        }
+        function xian(){
+            $('#xian').empty();
+            $('#xian').append("<option>请选择</option>");
+            var parent_id = $('#city option:selected').val();
+            $.get('ChinaArea.xml',function(){
+                $(regin).find('[CityID='+parent_id+']').find('Piecearea').each(function(){
+                    var id = $(this).attr('PieceareaID');
+                    var area_name = $(this).attr('Piecearea');
+                    var str = "<option value='"+id+"'>"+area_name+"</option>";
+                    $('#xian').append(str);
+                });
+            },'xml');
+        }
+    </script>
+</head>
+<body>
+    省份: <select name="" id="province" onchange="city()">
+        <option value="">请选择</option>
+    </select>
+    市: <select name="" id="city" onchange="xian()">
+        <option value="">请选择</option>
+    </select>
+    县: <select name="" id="xian">
+        <option value="">请选择</option>
+    </select>
+</body>
+</html>
