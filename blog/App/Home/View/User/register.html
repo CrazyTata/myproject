@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title> ICBlog 博客系统</title>
+    <link href="{$smarty.const.CSS_URL}style.css" rel="stylesheet" type="text/css" />
+    <link href="{$smarty.const.CSS_URL}admin_login.css" rel="stylesheet" type="text/css" />
+</head>
+<body class='bg_test'>
+<div class="admin_login_wrap">
+    <h1>注册</h1>
+    <div class="adming_login_border">
+        <div class="admin_input">
+<form action="/index.php?p=home&c=user&a=register" method="post">
+    <ul class="admin_items">
+        <li>
+            <label for="user">用户名：</label>
+            <input type="text" name="user_name" value="{$shuju['user_name']|default:''}" id="user" size="34" class="admin_input_style" />
+        </li>
+        <li>
+            <label for="pwd">密码：</label>
+            <input type="password" name="user_pwd" value="{$shuju['user_pwd']|default:''}"  size="34" class="admin_input_style" />
+        </li>        
+        <li>
+            <label for="pwd">再次输入密码：</label>
+            <input type="password" name="user_pwd2" value=""  size="34" class="admin_input_style" />
+        </li>        
+        <li>
+            <label for="pwd">邮箱：</label>
+            <input type="text" name="user_email" value="{$shuju['user_email']|default:''}"  size="34" class="admin_input_style" />
+            <span style="color:red;">{$email_verify_result|default:''}</span>
+        </li>        
+        <li>
+            <label for="pwd">手机号码：</label>
+            <input type="text" name="user_tel" value="{$shuju['user_tel']|default:''}"  size="34" class="admin_input_style" />
+            <span style="color:red;">{$tel_verify_result|default:''}</span>
+        </li>        
+        <li>
+            <label for="pwd">性别：</label>
+            <input type="radio" name="user_sex" value="0"   class="admin_input_style" checked='checked'
+            {if (isset($shuju) && $shuju.user_sex eq '0') or empty($shuju)} checked='checked' {/if}/>男
+            <input type="radio" name="user_sex" value="1"   class="admin_input_style" 
+            {if isset($shuju) && $shuju.user_sex eq '1'} checked='checked' {/if}/>女
+            <input type="radio" name="user_sex" value="2"   class="admin_input_style" 
+            {if isset($shuju) && $shuju.user_sex eq '2'} checked='checked' {/if}/>保密
+        </li>
+        <li>
+            <input type="submit" value="提交" class="btn btn-primary" />
+        </li>
+    </ul>
+</form>
+        </div>
+    </div>
+</div>
+
+    <!--版权信息-->
+    <?php //include VIEW_PATH . 'footer.php'; ?>
+    
+</body>
+</html>
