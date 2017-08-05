@@ -1,0 +1,2885 @@
+[ 2017-06-25T09:23:43+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-25T09:23:46+08:00 ] 127.0.0.1 /Home/Index/searchByType.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: goods_list D:\project\itshop\Application\Home\Controller\IndexController.class.php 第 94 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\project\itshop\Application\Home\Controller\IndexController.class.php 第 94 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-25T09:23:47+08:00 ] 127.0.0.1 /Home/Index/searchByType.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: goods_list D:\project\itshop\Application\Home\Controller\IndexController.class.php 第 94 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\project\itshop\Application\Home\Controller\IndexController.class.php 第 94 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-25T09:23:48+08:00 ] 127.0.0.1 /Home/Index/searchByType.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_goods` ORDER BY goods_salenum desc LIMIT 5   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-25T09:23:49+08:00 ] 127.0.0.1 /Home/Index/searchByType.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_goods` WHERE ( goods_tj=1 ) ORDER BY goods_addtime desc LIMIT 5   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-25T09:23:50+08:00 ] 127.0.0.1 /Home/Index/searchByType.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: goods_list D:\project\itshop\Application\Home\Controller\IndexController.class.php 第 94 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\project\itshop\Application\Home\Controller\IndexController.class.php 第 94 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-25T09:23:51+08:00 ] 127.0.0.1 /Home/Index/searchByType.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: goods_list D:\project\itshop\Application\Home\Controller\IndexController.class.php 第 94 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\project\itshop\Application\Home\Controller\IndexController.class.php 第 94 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-25T09:23:52+08:00 ] 127.0.0.1 /Home/Index/searchByType.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: goods_list D:\project\itshop\Application\Home\Controller\IndexController.class.php 第 94 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\project\itshop\Application\Home\Controller\IndexController.class.php 第 94 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-25T09:23:53+08:00 ] 127.0.0.1 /Home/Index/searchByType.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sp_goods` WHERE ( goods_tj=1 ) ORDER BY goods_addtime desc LIMIT 5   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-25T09:23:54+08:00 ] 127.0.0.1 /Home/Index/searchByType.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: goods_list D:\project\itshop\Application\Home\Controller\IndexController.class.php 第 94 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\project\itshop\Application\Home\Controller\IndexController.class.php 第 94 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-25T09:24:07+08:00 ] 127.0.0.1 /Home/Index/searchByType.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: goods_list D:\project\itshop\Application\Home\Controller\IndexController.class.php 第 94 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\project\itshop\Application\Home\Controller\IndexController.class.php 第 94 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-25T09:24:33+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-25T09:24:38+08:00 ] 127.0.0.1 /Home/Index/searchByType.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sp_goods` WHERE ( goods_tj=1 ) ORDER BY goods_addtime desc LIMIT 5   [ RunTime:0.0060s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008000s ]
+
+[ 2017-06-25T09:24:39+08:00 ] 127.0.0.1 /Home/Index/searchByType.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: goods_list D:\project\itshop\Application\Home\Controller\IndexController.class.php 第 94 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\project\itshop\Application\Home\Controller\IndexController.class.php 第 94 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-25T09:24:40+08:00 ] 127.0.0.1 /Home/Index/searchByType.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: goods_list D:\project\itshop\Application\Home\Controller\IndexController.class.php 第 94 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\project\itshop\Application\Home\Controller\IndexController.class.php 第 94 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-25T09:25:05+08:00 ] 127.0.0.1 /Home/Index/searchByType.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: goods_list D:\project\itshop\Application\Home\Controller\IndexController.class.php 第 94 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\project\itshop\Application\Home\Controller\IndexController.class.php 第 94 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-25T09:25:07+08:00 ] 127.0.0.1 /Home/Index/searchByType.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: goods_list D:\project\itshop\Application\Home\Controller\IndexController.class.php 第 94 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\project\itshop\Application\Home\Controller\IndexController.class.php 第 94 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-25T09:26:05+08:00 ] 127.0.0.1 /Home/Index/searchByType.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: goods_list D:\project\itshop\Application\Home\Controller\IndexController.class.php 第 94 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\project\itshop\Application\Home\Controller\IndexController.class.php 第 94 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-25T09:30:49+08:00 ] 127.0.0.1 /Home/Index/searchByType.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_goods` WHERE ( goods_tj=1 ) ORDER BY goods_addtime desc LIMIT 5   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-25T09:31:25+08:00 ] 127.0.0.1 /Home/Index/searchByType.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_goods` ORDER BY goods_salenum desc LIMIT 5   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-25T09:40:16+08:00 ] 127.0.0.1 /Home/Index/searchByType.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sp_goods` ORDER BY goods_salenum desc LIMIT 5   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-25T09:40:17+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-25T09:40:18+08:00 ] 127.0.0.1 /Home/Index/searchByType.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_goods` ORDER BY goods_salenum desc LIMIT 5   [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-25T09:40:19+08:00 ] 127.0.0.1 /Home/Index/searchByType.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: goods_list D:\project\itshop\Application\Home\Controller\IndexController.class.php 第 94 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\project\itshop\Application\Home\Controller\IndexController.class.php 第 94 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-06-25T09:40:20+08:00 ] 127.0.0.1 /Home/Index/searchByType.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sp_goods` WHERE ( goods_tj=1 ) ORDER BY goods_addtime desc LIMIT 5   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-25T09:40:22+08:00 ] 127.0.0.1 /Home/Index/searchByType.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: goods_list D:\project\itshop\Application\Home\Controller\IndexController.class.php 第 94 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\project\itshop\Application\Home\Controller\IndexController.class.php 第 94 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-25T09:40:26+08:00 ] 127.0.0.1 /Home/Index/search.html?name=%E6%89%8B%E6%9C%BA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_goods` WHERE ( goods_key like '%手机%' or goods_desc like '%手机%' )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-25T09:40:29+08:00 ] 127.0.0.1 /Home/Index/detail/goods_id/14.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 14 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sp_goodspic` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `sp_goodspic` WHERE ( pic_goodsid=14 )  [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `sp_goodsattr` [ RunTime:0.0020s ]
+SQL: SELECT a.attr_name,g.ga_attrvals FROM sp_goodsattr g LEFT JOIN sp_attribute a ON g.ga_attrid=a.attr_id  WHERE ( g.ga_goodsid=14 )  [ RunTime:0.0010s ]
+SQL: SELECT a.attr_name,g.ga_attrvals FROM sp_goodsattr g LEFT JOIN sp_attribute a ON g.ga_attrid=a.attr_id  WHERE ( g.ga_goodsid=14 and a.attr_type='单选' )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-25T10:04:29+08:00 ] 127.0.0.1 /Home/Member/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-25T10:29:41+08:00 ] 127.0.0.1 /Home/Member/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-25T10:30:00+08:00 ] 127.0.0.1 /Home/Member/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_member` [ RunTime:0.0020s ]
+SQL: INSERT INTO `sp_member` (`mem_name`,`mem_passwd`,`mem_salt`) VALUES ('ashe','1dcd701cf9cc1e7c75abe71ecbf4067c','j3X2y') [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-25T10:30:04+08:00 ] 127.0.0.1 /Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-06-25T10:30:20+08:00 ] 127.0.0.1 /Home/Index/searchByType.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sp_goods` WHERE ( goods_tj=1 ) ORDER BY goods_addtime desc LIMIT 5   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-25T10:30:23+08:00 ] 127.0.0.1 /Home/Member/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-25T10:31:03+08:00 ] 127.0.0.1 /Home/Member/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_member` [ RunTime:0.0020s ]
+ERR: 1062:Duplicate entry '' for key 'mem_nickname'
+ [ SQL语句 ] : INSERT INTO `sp_member` (`mem_name`,`mem_passwd`,`mem_salt`) VALUES ('jax','1515468820c3e2fa969aa7d73225ef7d','40WdS7O')
+ERR: 1062:Duplicate entry '' for key 'mem_nickname'
+ [ SQL语句 ] : INSERT INTO `sp_member` (`mem_name`,`mem_passwd`,`mem_salt`) VALUES ('jax','1515468820c3e2fa969aa7d73225ef7d','40WdS7O')
+
+[ 2017-06-25T10:32:25+08:00 ] 127.0.0.1 /Home/Member/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-25T10:32:34+08:00 ] 127.0.0.1 /Home/Member/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_member` [ RunTime:0.0030s ]
+ERR: 1062:Duplicate entry '' for key 'mem_email'
+ [ SQL语句 ] : INSERT INTO `sp_member` (`mem_name`,`mem_passwd`,`mem_nickname`,`mem_salt`) VALUES ('jax','47a653b1b05651725d29b78e25d2aa8b','贾克斯','6fL4')
+ERR: 1062:Duplicate entry '' for key 'mem_email'
+ [ SQL语句 ] : INSERT INTO `sp_member` (`mem_name`,`mem_passwd`,`mem_nickname`,`mem_salt`) VALUES ('jax','47a653b1b05651725d29b78e25d2aa8b','贾克斯','6fL4')
+
+[ 2017-06-25T10:33:36+08:00 ] 127.0.0.1 /Home/Member/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_member` [ RunTime:0.0020s ]
+SQL: INSERT INTO `sp_member` (`mem_name`,`mem_passwd`,`mem_nickname`,`mem_salt`) VALUES ('jax','e6711e92406985deaf28c066f720940c','贾克斯','v33r9') [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-25T10:33:41+08:00 ] 127.0.0.1 /Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0150s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-25T10:34:46+08:00 ] 127.0.0.1 /Home/Index/searchByType.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `sp_goods` WHERE ( goods_tj=1 ) ORDER BY goods_addtime desc LIMIT 5   [ RunTime:0.0080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-25T10:34:52+08:00 ] 127.0.0.1 /Home/Member/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-25T10:34:52+08:00 ] 127.0.0.1 /Home/Member/images/checkcode1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-25T10:40:57+08:00 ] 127.0.0.1 /Home/Member/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_member` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sp_member` WHERE ( mem_name='ashe' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-06-25T10:41:00+08:00 ] 127.0.0.1 /Home/Member/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-25T10:41:29+08:00 ] 127.0.0.1 /Home/Member/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_member` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_member` WHERE ( mem_name='ashe' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-25T10:41:33+08:00 ] 127.0.0.1 /Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-25T10:41:40+08:00 ] 127.0.0.1 /Home/Index/searchByType.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `sp_goods` WHERE ( goods_tj=1 ) ORDER BY goods_addtime desc LIMIT 5   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-25T10:41:46+08:00 ] 127.0.0.1 /Home/Index/searchByType.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_goods` ORDER BY goods_salenum desc LIMIT 5   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-25T10:42:06+08:00 ] 127.0.0.1 /Home/Index/searchByType.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `sp_goods` WHERE ( goods_tj=1 ) ORDER BY goods_addtime desc LIMIT 5   [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-25T10:42:17+08:00 ] 127.0.0.1 /Home/Index/searchByType.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_goods` ORDER BY goods_salenum desc LIMIT 5   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-25T10:42:18+08:00 ] 127.0.0.1 /Home/Index/searchByType.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: goods_list D:\project\itshop\Application\Home\Controller\IndexController.class.php 第 94 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\project\itshop\Application\Home\Controller\IndexController.class.php 第 94 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-25T10:43:06+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-25T10:45:14+08:00 ] 127.0.0.1 /Home/Index/searchByType.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sp_goods` WHERE ( goods_tj=1 ) ORDER BY goods_addtime desc LIMIT 5   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-25T10:45:18+08:00 ] 127.0.0.1 /Home/Index/searchByType.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_goods` WHERE ( goods_tj=1 ) ORDER BY goods_addtime desc LIMIT 5   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-25T10:45:19+08:00 ] 127.0.0.1 /Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-25T10:45:26+08:00 ] 127.0.0.1 /Home/Index/searchByType.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sp_goods` WHERE ( goods_tj=1 ) ORDER BY goods_addtime desc LIMIT 5   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-06-25T10:46:05+08:00 ] 127.0.0.1 /Home/Index/searchByType.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013001s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sp_goods` WHERE ( goods_tj=1 ) ORDER BY goods_addtime desc LIMIT 5   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-25T10:46:06+08:00 ] 127.0.0.1 /Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-25T10:46:19+08:00 ] 127.0.0.1 /Home/Index/searchByType.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_goods` ORDER BY goods_salenum desc LIMIT 5   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-25T10:47:15+08:00 ] 127.0.0.1 /Home/Index/searchByType.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sp_goods` ORDER BY goods_salenum desc LIMIT 5   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-25T10:47:57+08:00 ] 127.0.0.1 /Home/Index/searchByType.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sp_goods` WHERE ( goods_tj=1 ) ORDER BY goods_addtime desc LIMIT 5   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-25T10:47:58+08:00 ] 127.0.0.1 /Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-25T10:48:02+08:00 ] 127.0.0.1 /Home/Index/searchByType.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: goods_list D:\project\itshop\Application\Home\Controller\IndexController.class.php 第 94 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\project\itshop\Application\Home\Controller\IndexController.class.php 第 94 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-25T10:48:43+08:00 ] 127.0.0.1 /Home/Index/searchByType.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_goods` WHERE ( goods_tj=1 ) ORDER BY goods_addtime desc LIMIT 5   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-06-25T10:48:44+08:00 ] 127.0.0.1 /Home/Member/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-25T10:48:48+08:00 ] 127.0.0.1 /Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: mem_id D:\project\itshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 29 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-25T10:48:52+08:00 ] 127.0.0.1 /Home/Index/searchByType.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sp_goods` ORDER BY goods_salenum desc LIMIT 5   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-25T11:19:23+08:00 ] 127.0.0.1 /Home/Index/searchByType.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sp_goods` WHERE ( goods_tj=1 ) ORDER BY goods_addtime desc LIMIT 5   [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-25T11:19:24+08:00 ] 127.0.0.1 /Home/Index/searchByType.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sp_goods` WHERE ( goods_tj=1 ) ORDER BY goods_addtime desc LIMIT 5   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-25T11:19:27+08:00 ] 127.0.0.1 /Home/Index/search.html?name=%E6%89%8B%E6%9C%BA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_goods` WHERE ( goods_key like '%手机%' or goods_desc like '%手机%' )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: mem_id D:\project\itshop\Application\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 29 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-25T11:19:30+08:00 ] 127.0.0.1 /Home/Index/detail/goods_id/14.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 14 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_goodspic` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sp_goodspic` WHERE ( pic_goodsid=14 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_goodsattr` [ RunTime:0.0010s ]
+SQL: SELECT a.attr_name,g.ga_attrvals FROM sp_goodsattr g LEFT JOIN sp_attribute a ON g.ga_attrid=a.attr_id  WHERE ( g.ga_goodsid=14 )  [ RunTime:0.0010s ]
+SQL: SELECT a.attr_name,g.ga_attrvals FROM sp_goodsattr g LEFT JOIN sp_attribute a ON g.ga_attrid=a.attr_id  WHERE ( g.ga_goodsid=14 and a.attr_type='单选' )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: mem_id D:\project\itshop\Application\Runtime\Cache\Home\1223f42a89e823bf89547594651162de.php 第 29 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-25T11:19:39+08:00 ] 127.0.0.1 /Home/Index/detail/goods_id/145html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 145 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_goodspic` [ RunTime:0.0010s ]
+ERR: 1054:Unknown column '145html' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `sp_goodspic` WHERE ( pic_goodsid=145html ) 
+ERR: 1054:Unknown column '145html' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `sp_goodspic` WHERE ( pic_goodsid=145html ) 
+
+[ 2017-06-25T11:19:44+08:00 ] 127.0.0.1 /Home/Index/detail/goods_id/15.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.004001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 15 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_goodspic` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sp_goodspic` WHERE ( pic_goodsid=15 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_goodsattr` [ RunTime:0.0020s ]
+SQL: SELECT a.attr_name,g.ga_attrvals FROM sp_goodsattr g LEFT JOIN sp_attribute a ON g.ga_attrid=a.attr_id  WHERE ( g.ga_goodsid=15 )  [ RunTime:0.0000s ]
+SQL: SELECT a.attr_name,g.ga_attrvals FROM sp_goodsattr g LEFT JOIN sp_attribute a ON g.ga_attrid=a.attr_id  WHERE ( g.ga_goodsid=15 and a.attr_type='单选' )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: mem_id D:\project\itshop\Application\Runtime\Cache\Home\1223f42a89e823bf89547594651162de.php 第 29 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-25T11:53:03+08:00 ] 127.0.0.1 /Home/Index/detail/goods_id/145html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 145 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_goodspic` [ RunTime:0.0030s ]
+ERR: 1054:Unknown column '145html' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `sp_goodspic` WHERE ( pic_goodsid=145html ) 
+ERR: 1054:Unknown column '145html' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `sp_goodspic` WHERE ( pic_goodsid=145html ) 
+
+[ 2017-06-25T11:54:02+08:00 ] 127.0.0.1 /Home/Index/detail/goods_id/15.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 15 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_goodspic` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sp_goodspic` WHERE ( pic_goodsid=15 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_goodsattr` [ RunTime:0.0090s ]
+SQL: SELECT a.attr_name,g.ga_attrvals FROM sp_goodsattr g LEFT JOIN sp_attribute a ON g.ga_attrid=a.attr_id  WHERE ( g.ga_goodsid=15 )  [ RunTime:0.0020s ]
+SQL: SELECT a.attr_name,g.ga_attrvals FROM sp_goodsattr g LEFT JOIN sp_attribute a ON g.ga_attrid=a.attr_id  WHERE ( g.ga_goodsid=15 and a.attr_type='单选' )  [ RunTime:0.0080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: number_price D:\project\itshop\Application\Runtime\Cache\Home\1223f42a89e823bf89547594651162de.php 第 233 行.
+NOTIC: [8] Undefined variable: number_price D:\project\itshop\Application\Runtime\Cache\Home\1223f42a89e823bf89547594651162de.php 第 234 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-25T11:54:02+08:00 ] 127.0.0.1 /Home/Index/detail/goods_id/images/close.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-25T11:54:18+08:00 ] 127.0.0.1 /Home/Index/detail/goods_id/15.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_goodspic` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sp_goodspic` WHERE ( pic_goodsid=15 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_goodsattr` [ RunTime:0.0010s ]
+SQL: SELECT a.attr_name,g.ga_attrvals FROM sp_goodsattr g LEFT JOIN sp_attribute a ON g.ga_attrid=a.attr_id  WHERE ( g.ga_goodsid=15 )  [ RunTime:0.0010s ]
+SQL: SELECT a.attr_name,g.ga_attrvals FROM sp_goodsattr g LEFT JOIN sp_attribute a ON g.ga_attrid=a.attr_id  WHERE ( g.ga_goodsid=15 and a.attr_type='单选' )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: number_price D:\project\itshop\Application\Runtime\Cache\Home\1223f42a89e823bf89547594651162de.php 第 233 行.
+NOTIC: [8] Undefined variable: number_price D:\project\itshop\Application\Runtime\Cache\Home\1223f42a89e823bf89547594651162de.php 第 234 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-25T11:54:18+08:00 ] 127.0.0.1 /Home/Index/detail/goods_id/images/close.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-25T11:57:29+08:00 ] 127.0.0.1 /Home/Index/detail/goods_id/15.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 15 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sp_goodspic` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sp_goodspic` WHERE ( pic_goodsid=15 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_goodsattr` [ RunTime:0.0020s ]
+SQL: SELECT a.attr_name,g.ga_attrvals FROM sp_goodsattr g LEFT JOIN sp_attribute a ON g.ga_attrid=a.attr_id  WHERE ( g.ga_goodsid=15 )  [ RunTime:0.0000s ]
+SQL: SELECT a.attr_name,g.ga_attrvals FROM sp_goodsattr g LEFT JOIN sp_attribute a ON g.ga_attrid=a.attr_id  WHERE ( g.ga_goodsid=15 and a.attr_type='单选' )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: number_price D:\project\itshop\Application\Runtime\Cache\Home\1223f42a89e823bf89547594651162de.php 第 233 行.
+NOTIC: [8] Undefined variable: number_price D:\project\itshop\Application\Runtime\Cache\Home\1223f42a89e823bf89547594651162de.php 第 234 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-25T11:57:29+08:00 ] 127.0.0.1 /Home/Index/detail/goods_id/images/close.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-25T11:57:58+08:00 ] 127.0.0.1 /Home/Index/detail/goods_id/15.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 15 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_goodspic` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_goodspic` WHERE ( pic_goodsid=15 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_goodsattr` [ RunTime:0.0020s ]
+SQL: SELECT a.attr_name,g.ga_attrvals FROM sp_goodsattr g LEFT JOIN sp_attribute a ON g.ga_attrid=a.attr_id  WHERE ( g.ga_goodsid=15 )  [ RunTime:0.0000s ]
+SQL: SELECT a.attr_name,g.ga_attrvals FROM sp_goodsattr g LEFT JOIN sp_attribute a ON g.ga_attrid=a.attr_id  WHERE ( g.ga_goodsid=15 and a.attr_type='单选' )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: number_price D:\project\itshop\Application\Runtime\Cache\Home\1223f42a89e823bf89547594651162de.php 第 233 行.
+NOTIC: [8] Undefined variable: number_price D:\project\itshop\Application\Runtime\Cache\Home\1223f42a89e823bf89547594651162de.php 第 234 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-25T11:57:58+08:00 ] 127.0.0.1 /Home/Index/detail/goods_id/images/close.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-25T12:04:57+08:00 ] 127.0.0.1 /Home/Index/detail/goods_id/15.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 15 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_goodspic` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sp_goodspic` WHERE ( pic_goodsid=15 )  [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `sp_goodsattr` [ RunTime:0.0020s ]
+SQL: SELECT a.attr_name,g.ga_attrvals FROM sp_goodsattr g LEFT JOIN sp_attribute a ON g.ga_attrid=a.attr_id  WHERE ( g.ga_goodsid=15 )  [ RunTime:0.0000s ]
+SQL: SELECT a.attr_name,g.ga_attrvals FROM sp_goodsattr g LEFT JOIN sp_attribute a ON g.ga_attrid=a.attr_id  WHERE ( g.ga_goodsid=15 and a.attr_type='单选' )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: number_price D:\project\itshop\Application\Runtime\Cache\Home\1223f42a89e823bf89547594651162de.php 第 234 行.
+NOTIC: [8] Undefined variable: number_price D:\project\itshop\Application\Runtime\Cache\Home\1223f42a89e823bf89547594651162de.php 第 235 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-25T12:05:46+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: mem_id D:\project\itshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 29 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-25T12:06:06+08:00 ] 127.0.0.1 /Home/Index/detail/goods_id/15.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 15 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_goodspic` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_goodspic` WHERE ( pic_goodsid=15 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_goodsattr` [ RunTime:0.0010s ]
+SQL: SELECT a.attr_name,g.ga_attrvals FROM sp_goodsattr g LEFT JOIN sp_attribute a ON g.ga_attrid=a.attr_id  WHERE ( g.ga_goodsid=15 )  [ RunTime:0.0010s ]
+SQL: SELECT a.attr_name,g.ga_attrvals FROM sp_goodsattr g LEFT JOIN sp_attribute a ON g.ga_attrid=a.attr_id  WHERE ( g.ga_goodsid=15 and a.attr_type='单选' )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: number_price D:\project\itshop\Application\Runtime\Cache\Home\1223f42a89e823bf89547594651162de.php 第 234 行.
+NOTIC: [8] Undefined variable: number_price D:\project\itshop\Application\Runtime\Cache\Home\1223f42a89e823bf89547594651162de.php 第 235 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-25T14:37:09+08:00 ] 127.0.0.1 /Home/Index/detail/goods_id/15.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 15 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_goodspic` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sp_goodspic` WHERE ( pic_goodsid=15 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_goodsattr` [ RunTime:0.0010s ]
+SQL: SELECT a.attr_name,g.ga_attrvals FROM sp_goodsattr g LEFT JOIN sp_attribute a ON g.ga_attrid=a.attr_id  WHERE ( g.ga_goodsid=15 )  [ RunTime:0.0000s ]
+SQL: SELECT a.attr_name,g.ga_attrvals FROM sp_goodsattr g LEFT JOIN sp_attribute a ON g.ga_attrid=a.attr_id  WHERE ( g.ga_goodsid=15 and a.attr_type='单选' )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: number_price D:\project\itshop\Application\Runtime\Cache\Home\1223f42a89e823bf89547594651162de.php 第 234 行.
+NOTIC: [8] Undefined variable: number_price D:\project\itshop\Application\Runtime\Cache\Home\1223f42a89e823bf89547594651162de.php 第 235 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-25T14:37:48+08:00 ] 127.0.0.1 /Home/Index/detail/goods_id/15.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 15 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_goodspic` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_goodspic` WHERE ( pic_goodsid=15 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_goodsattr` [ RunTime:0.0030s ]
+SQL: SELECT a.attr_name,g.ga_attrvals FROM sp_goodsattr g LEFT JOIN sp_attribute a ON g.ga_attrid=a.attr_id  WHERE ( g.ga_goodsid=15 )  [ RunTime:0.0010s ]
+SQL: SELECT a.attr_name,g.ga_attrvals FROM sp_goodsattr g LEFT JOIN sp_attribute a ON g.ga_attrid=a.attr_id  WHERE ( g.ga_goodsid=15 and a.attr_type='单选' )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: number_price D:\project\itshop\Application\Runtime\Cache\Home\1223f42a89e823bf89547594651162de.php 第 235 行.
+NOTIC: [8] Undefined variable: number_price D:\project\itshop\Application\Runtime\Cache\Home\1223f42a89e823bf89547594651162de.php 第 236 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-25T14:37:52+08:00 ] 127.0.0.1 /Home/Index/detail/goods_id/15.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_goodspic` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_goodspic` WHERE ( pic_goodsid=15 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_goodsattr` [ RunTime:0.0030s ]
+SQL: SELECT a.attr_name,g.ga_attrvals FROM sp_goodsattr g LEFT JOIN sp_attribute a ON g.ga_attrid=a.attr_id  WHERE ( g.ga_goodsid=15 )  [ RunTime:0.0000s ]
+SQL: SELECT a.attr_name,g.ga_attrvals FROM sp_goodsattr g LEFT JOIN sp_attribute a ON g.ga_attrid=a.attr_id  WHERE ( g.ga_goodsid=15 and a.attr_type='单选' )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: number_price D:\project\itshop\Application\Runtime\Cache\Home\1223f42a89e823bf89547594651162de.php 第 235 行.
+NOTIC: [8] Undefined variable: number_price D:\project\itshop\Application\Runtime\Cache\Home\1223f42a89e823bf89547594651162de.php 第 236 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-25T14:38:55+08:00 ] 127.0.0.1 /Home/Index/detail/goods_id/15.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_goodspic` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_goodspic` WHERE ( pic_goodsid=15 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_goodsattr` [ RunTime:0.0020s ]
+SQL: SELECT a.attr_name,g.ga_attrvals FROM sp_goodsattr g LEFT JOIN sp_attribute a ON g.ga_attrid=a.attr_id  WHERE ( g.ga_goodsid=15 )  [ RunTime:0.0000s ]
+SQL: SELECT a.attr_name,g.ga_attrvals FROM sp_goodsattr g LEFT JOIN sp_attribute a ON g.ga_attrid=a.attr_id  WHERE ( g.ga_goodsid=15 and a.attr_type='单选' )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: number_price D:\project\itshop\Application\Runtime\Cache\Home\1223f42a89e823bf89547594651162de.php 第 235 行.
+NOTIC: [8] Undefined variable: number_price D:\project\itshop\Application\Runtime\Cache\Home\1223f42a89e823bf89547594651162de.php 第 236 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-25T14:39:37+08:00 ] 127.0.0.1 /Home/Index/detail/goods_id/15.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 15 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `sp_goodspic` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_goodspic` WHERE ( pic_goodsid=15 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_goodsattr` [ RunTime:0.0020s ]
+SQL: SELECT a.attr_name,g.ga_attrvals FROM sp_goodsattr g LEFT JOIN sp_attribute a ON g.ga_attrid=a.attr_id  WHERE ( g.ga_goodsid=15 )  [ RunTime:0.0000s ]
+SQL: SELECT a.attr_name,g.ga_attrvals FROM sp_goodsattr g LEFT JOIN sp_attribute a ON g.ga_attrid=a.attr_id  WHERE ( g.ga_goodsid=15 and a.attr_type='单选' )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: number_price D:\project\itshop\Application\Runtime\Cache\Home\1223f42a89e823bf89547594651162de.php 第 235 行.
+NOTIC: [8] Undefined variable: number_price D:\project\itshop\Application\Runtime\Cache\Home\1223f42a89e823bf89547594651162de.php 第 236 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-25T14:41:28+08:00 ] 127.0.0.1 /Home/Index/detail/goods_id/15.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 15 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_goodspic` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sp_goodspic` WHERE ( pic_goodsid=15 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_goodsattr` [ RunTime:0.0010s ]
+SQL: SELECT a.attr_name,g.ga_attrvals FROM sp_goodsattr g LEFT JOIN sp_attribute a ON g.ga_attrid=a.attr_id  WHERE ( g.ga_goodsid=15 )  [ RunTime:0.0000s ]
+SQL: SELECT a.attr_name,g.ga_attrvals FROM sp_goodsattr g LEFT JOIN sp_attribute a ON g.ga_attrid=a.attr_id  WHERE ( g.ga_goodsid=15 and a.attr_type='单选' )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: number_price D:\project\itshop\Application\Runtime\Cache\Home\1223f42a89e823bf89547594651162de.php 第 235 行.
+NOTIC: [8] Undefined variable: number_price D:\project\itshop\Application\Runtime\Cache\Home\1223f42a89e823bf89547594651162de.php 第 236 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-25T14:41:44+08:00 ] 127.0.0.1 /Home/Index/detail/goods_id/15.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_goodspic` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sp_goodspic` WHERE ( pic_goodsid=15 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_goodsattr` [ RunTime:0.0020s ]
+SQL: SELECT a.attr_name,g.ga_attrvals FROM sp_goodsattr g LEFT JOIN sp_attribute a ON g.ga_attrid=a.attr_id  WHERE ( g.ga_goodsid=15 )  [ RunTime:0.0000s ]
+SQL: SELECT a.attr_name,g.ga_attrvals FROM sp_goodsattr g LEFT JOIN sp_attribute a ON g.ga_attrid=a.attr_id  WHERE ( g.ga_goodsid=15 and a.attr_type='单选' )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: number_price D:\project\itshop\Application\Runtime\Cache\Home\1223f42a89e823bf89547594651162de.php 第 235 行.
+NOTIC: [8] Undefined variable: number_price D:\project\itshop\Application\Runtime\Cache\Home\1223f42a89e823bf89547594651162de.php 第 236 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-25T14:48:13+08:00 ] 127.0.0.1 /Home/Index/detail/goods_id/15.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_goodspic` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_goodspic` WHERE ( pic_goodsid=15 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_goodsattr` [ RunTime:0.0020s ]
+SQL: SELECT a.attr_name,g.ga_attrvals FROM sp_goodsattr g LEFT JOIN sp_attribute a ON g.ga_attrid=a.attr_id  WHERE ( g.ga_goodsid=15 )  [ RunTime:0.0000s ]
+SQL: SELECT a.attr_name,g.ga_attrvals FROM sp_goodsattr g LEFT JOIN sp_attribute a ON g.ga_attrid=a.attr_id  WHERE ( g.ga_goodsid=15 and a.attr_type='单选' )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: number_price D:\project\itshop\Application\Runtime\Cache\Home\1223f42a89e823bf89547594651162de.php 第 235 行.
+NOTIC: [8] Undefined variable: number_price D:\project\itshop\Application\Runtime\Cache\Home\1223f42a89e823bf89547594651162de.php 第 236 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-25T14:48:31+08:00 ] 127.0.0.1 /Home/Index/detail/goods_id/15.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_goodspic` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_goodspic` WHERE ( pic_goodsid=15 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_goodsattr` [ RunTime:0.0020s ]
+SQL: SELECT a.attr_name,g.ga_attrvals FROM sp_goodsattr g LEFT JOIN sp_attribute a ON g.ga_attrid=a.attr_id  WHERE ( g.ga_goodsid=15 )  [ RunTime:0.0010s ]
+SQL: SELECT a.attr_name,g.ga_attrvals FROM sp_goodsattr g LEFT JOIN sp_attribute a ON g.ga_attrid=a.attr_id  WHERE ( g.ga_goodsid=15 and a.attr_type='单选' )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: number_price D:\project\itshop\Application\Runtime\Cache\Home\1223f42a89e823bf89547594651162de.php 第 235 行.
+NOTIC: [8] Undefined variable: number_price D:\project\itshop\Application\Runtime\Cache\Home\1223f42a89e823bf89547594651162de.php 第 236 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-25T14:53:53+08:00 ] 127.0.0.1 /Home/Index/detail/goods_id/15.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 15 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_goodspic` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sp_goodspic` WHERE ( pic_goodsid=15 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_goodsattr` [ RunTime:0.0030s ]
+SQL: SELECT a.attr_name,g.ga_attrvals FROM sp_goodsattr g LEFT JOIN sp_attribute a ON g.ga_attrid=a.attr_id  WHERE ( g.ga_goodsid=15 )  [ RunTime:0.0010s ]
+SQL: SELECT a.attr_name,g.ga_attrvals FROM sp_goodsattr g LEFT JOIN sp_attribute a ON g.ga_attrid=a.attr_id  WHERE ( g.ga_goodsid=15 and a.attr_type='单选' )  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: number_price D:\project\itshop\Application\Runtime\Cache\Home\1223f42a89e823bf89547594651162de.php 第 235 行.
+NOTIC: [8] Undefined variable: number_price D:\project\itshop\Application\Runtime\Cache\Home\1223f42a89e823bf89547594651162de.php 第 236 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-25T15:08:25+08:00 ] 127.0.0.1 /Home/Index/detail/goods_id/15.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 15 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sp_goodspic` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `sp_goodspic` WHERE ( pic_goodsid=15 )  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sp_goodsattr` [ RunTime:0.0050s ]
+SQL: SELECT a.attr_name,g.ga_attrvals FROM sp_goodsattr g LEFT JOIN sp_attribute a ON g.ga_attrid=a.attr_id  WHERE ( g.ga_goodsid=15 )  [ RunTime:0.0030s ]
+SQL: SELECT a.attr_name,g.ga_attrvals FROM sp_goodsattr g LEFT JOIN sp_attribute a ON g.ga_attrid=a.attr_id  WHERE ( g.ga_goodsid=15 and a.attr_type='单选' )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: number_price D:\project\itshop\Application\Runtime\Cache\Home\1223f42a89e823bf89547594651162de.php 第 235 行.
+NOTIC: [8] Undefined variable: number_price D:\project\itshop\Application\Runtime\Cache\Home\1223f42a89e823bf89547594651162de.php 第 236 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-25T15:13:19+08:00 ] 127.0.0.1 /Home/Index/detail/goods_id/15.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 15 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_goodspic` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sp_goodspic` WHERE ( pic_goodsid=15 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_goodsattr` [ RunTime:0.0020s ]
+SQL: SELECT a.attr_name,g.ga_attrvals FROM sp_goodsattr g LEFT JOIN sp_attribute a ON g.ga_attrid=a.attr_id  WHERE ( g.ga_goodsid=15 )  [ RunTime:0.0000s ]
+SQL: SELECT a.attr_name,g.ga_attrvals FROM sp_goodsattr g LEFT JOIN sp_attribute a ON g.ga_attrid=a.attr_id  WHERE ( g.ga_goodsid=15 and a.attr_type='单选' )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: number_price D:\project\itshop\Application\Runtime\Cache\Home\1223f42a89e823bf89547594651162de.php 第 235 行.
+NOTIC: [8] Undefined variable: number_price D:\project\itshop\Application\Runtime\Cache\Home\1223f42a89e823bf89547594651162de.php 第 236 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-25T15:15:52+08:00 ] 127.0.0.1 /Home/Index/detail/goods_id/15.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 15 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sp_goodspic` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sp_goodspic` WHERE ( pic_goodsid=15 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_goodsattr` [ RunTime:0.0020s ]
+SQL: SELECT a.attr_name,g.ga_attrvals FROM sp_goodsattr g LEFT JOIN sp_attribute a ON g.ga_attrid=a.attr_id  WHERE ( g.ga_goodsid=15 )  [ RunTime:0.0000s ]
+SQL: SELECT a.attr_name,g.ga_attrvals FROM sp_goodsattr g LEFT JOIN sp_attribute a ON g.ga_attrid=a.attr_id  WHERE ( g.ga_goodsid=15 and a.attr_type='单选' )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: number_price D:\project\itshop\Application\Runtime\Cache\Home\1223f42a89e823bf89547594651162de.php 第 235 行.
+NOTIC: [8] Undefined variable: number_price D:\project\itshop\Application\Runtime\Cache\Home\1223f42a89e823bf89547594651162de.php 第 236 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-25T15:15:58+08:00 ] 127.0.0.1 /Home/Index/detail/goods_id/15.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 15 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_goodspic` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sp_goodspic` WHERE ( pic_goodsid=15 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_goodsattr` [ RunTime:0.0010s ]
+SQL: SELECT a.attr_name,g.ga_attrvals FROM sp_goodsattr g LEFT JOIN sp_attribute a ON g.ga_attrid=a.attr_id  WHERE ( g.ga_goodsid=15 )  [ RunTime:0.0000s ]
+SQL: SELECT a.attr_name,g.ga_attrvals FROM sp_goodsattr g LEFT JOIN sp_attribute a ON g.ga_attrid=a.attr_id  WHERE ( g.ga_goodsid=15 and a.attr_type='单选' )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: number_price D:\project\itshop\Application\Runtime\Cache\Home\1223f42a89e823bf89547594651162de.php 第 235 行.
+NOTIC: [8] Undefined variable: number_price D:\project\itshop\Application\Runtime\Cache\Home\1223f42a89e823bf89547594651162de.php 第 236 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-25T15:23:18+08:00 ] 127.0.0.1 /Home/Index/detail/goods_id/15.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 15 LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `sp_goodspic` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `sp_goodspic` WHERE ( pic_goodsid=15 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_goodsattr` [ RunTime:0.0020s ]
+SQL: SELECT a.attr_name,g.ga_attrvals FROM sp_goodsattr g LEFT JOIN sp_attribute a ON g.ga_attrid=a.attr_id  WHERE ( g.ga_goodsid=15 )  [ RunTime:0.0010s ]
+SQL: SELECT a.attr_name,g.ga_attrvals FROM sp_goodsattr g LEFT JOIN sp_attribute a ON g.ga_attrid=a.attr_id  WHERE ( g.ga_goodsid=15 and a.attr_type='单选' )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: number_price D:\project\itshop\Application\Runtime\Cache\Home\1223f42a89e823bf89547594651162de.php 第 235 行.
+NOTIC: [8] Undefined variable: number_price D:\project\itshop\Application\Runtime\Cache\Home\1223f42a89e823bf89547594651162de.php 第 236 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-25T15:23:33+08:00 ] 127.0.0.1 /Home/Index/detail/goods_id/14.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 14 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_goodspic` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sp_goodspic` WHERE ( pic_goodsid=14 )  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sp_goodsattr` [ RunTime:0.0010s ]
+SQL: SELECT a.attr_name,g.ga_attrvals FROM sp_goodsattr g LEFT JOIN sp_attribute a ON g.ga_attrid=a.attr_id  WHERE ( g.ga_goodsid=14 )  [ RunTime:0.0000s ]
+SQL: SELECT a.attr_name,g.ga_attrvals FROM sp_goodsattr g LEFT JOIN sp_attribute a ON g.ga_attrid=a.attr_id  WHERE ( g.ga_goodsid=14 and a.attr_type='单选' )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: number_price D:\project\itshop\Application\Runtime\Cache\Home\1223f42a89e823bf89547594651162de.php 第 235 行.
+NOTIC: [8] Undefined variable: number_price D:\project\itshop\Application\Runtime\Cache\Home\1223f42a89e823bf89547594651162de.php 第 236 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-25T15:51:39+08:00 ] 127.0.0.1 /Home/Index/detail/goods_id/14.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 14 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_goodspic` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sp_goodspic` WHERE ( pic_goodsid=14 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_goodsattr` [ RunTime:0.0030s ]
+SQL: SELECT a.attr_name,g.ga_attrvals FROM sp_goodsattr g LEFT JOIN sp_attribute a ON g.ga_attrid=a.attr_id  WHERE ( g.ga_goodsid=14 )  [ RunTime:0.0020s ]
+SQL: SELECT a.attr_name,g.ga_attrvals FROM sp_goodsattr g LEFT JOIN sp_attribute a ON g.ga_attrid=a.attr_id  WHERE ( g.ga_goodsid=14 and a.attr_type='单选' )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: number_price D:\project\itshop\Application\Runtime\Cache\Home\1223f42a89e823bf89547594651162de.php 第 238 行.
+NOTIC: [8] Undefined variable: number_price D:\project\itshop\Application\Runtime\Cache\Home\1223f42a89e823bf89547594651162de.php 第 239 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-25T15:51:47+08:00 ] 127.0.0.1 /Home/Cart/addCart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_cart` [ RunTime:0.0010s ]
+SQL: INSERT INTO `sp_cart` (`cart_goodsid`,`cart_memid`,`cart_num`,`cart_goodsattr`) VALUES ('14','1','1','机身颜色:白色存储容量:256G运行内存:8G') [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-25T15:52:20+08:00 ] 127.0.0.1 /Home/Index/detail/goods_id/14.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 14 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sp_goodspic` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `sp_goodspic` WHERE ( pic_goodsid=14 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_goodsattr` [ RunTime:0.0030s ]
+SQL: SELECT a.attr_name,g.ga_attrvals FROM sp_goodsattr g LEFT JOIN sp_attribute a ON g.ga_attrid=a.attr_id  WHERE ( g.ga_goodsid=14 )  [ RunTime:0.0000s ]
+SQL: SELECT a.attr_name,g.ga_attrvals FROM sp_goodsattr g LEFT JOIN sp_attribute a ON g.ga_attrid=a.attr_id  WHERE ( g.ga_goodsid=14 and a.attr_type='单选' )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: number_price D:\project\itshop\Application\Runtime\Cache\Home\1223f42a89e823bf89547594651162de.php 第 238 行.
+NOTIC: [8] Undefined variable: number_price D:\project\itshop\Application\Runtime\Cache\Home\1223f42a89e823bf89547594651162de.php 第 239 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-25T15:52:38+08:00 ] 127.0.0.1 /Home/Member/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-25T15:52:40+08:00 ] 127.0.0.1 /Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: mem_id D:\project\itshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 29 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-25T15:52:46+08:00 ] 127.0.0.1 /Home/Member/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-25T15:52:46+08:00 ] 127.0.0.1 /Home/Member/images/checkcode1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-25T15:52:54+08:00 ] 127.0.0.1 /Home/Member/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_member` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `sp_member` WHERE ( mem_name='jax' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-25T15:52:57+08:00 ] 127.0.0.1 /Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-25T15:53:05+08:00 ] 127.0.0.1 /Home/Index/search.html?name=%E6%89%8B%E6%9C%BA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_goods` WHERE ( goods_key like '%手机%' or goods_desc like '%手机%' )  [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006000s ]
+
+[ 2017-06-25T15:53:09+08:00 ] 127.0.0.1 /Home/Index/detail/goods_id/15.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_goodspic` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_goodspic` WHERE ( pic_goodsid=15 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_goodsattr` [ RunTime:0.0030s ]
+SQL: SELECT a.attr_name,g.ga_attrvals FROM sp_goodsattr g LEFT JOIN sp_attribute a ON g.ga_attrid=a.attr_id  WHERE ( g.ga_goodsid=15 )  [ RunTime:0.0010s ]
+SQL: SELECT a.attr_name,g.ga_attrvals FROM sp_goodsattr g LEFT JOIN sp_attribute a ON g.ga_attrid=a.attr_id  WHERE ( g.ga_goodsid=15 and a.attr_type='单选' )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: number_price D:\project\itshop\Application\Runtime\Cache\Home\1223f42a89e823bf89547594651162de.php 第 238 行.
+NOTIC: [8] Undefined variable: number_price D:\project\itshop\Application\Runtime\Cache\Home\1223f42a89e823bf89547594651162de.php 第 239 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-25T15:53:18+08:00 ] 127.0.0.1 /Home/Cart/addCart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_cart` [ RunTime:0.0020s ]
+SQL: INSERT INTO `sp_cart` (`cart_goodsid`,`cart_memid`,`cart_num`,`cart_goodsattr`) VALUES ('15','4','1','机身颜色:玫瑰金存储容量:128G运行内存:4G') [ RunTime:0.0040s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-25T15:53:40+08:00 ] 127.0.0.1 /Home/Index/detail/goods_id/14.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 14 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_goodspic` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_goodspic` WHERE ( pic_goodsid=14 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_goodsattr` [ RunTime:0.0020s ]
+SQL: SELECT a.attr_name,g.ga_attrvals FROM sp_goodsattr g LEFT JOIN sp_attribute a ON g.ga_attrid=a.attr_id  WHERE ( g.ga_goodsid=14 )  [ RunTime:0.0010s ]
+SQL: SELECT a.attr_name,g.ga_attrvals FROM sp_goodsattr g LEFT JOIN sp_attribute a ON g.ga_attrid=a.attr_id  WHERE ( g.ga_goodsid=14 and a.attr_type='单选' )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: number_price D:\project\itshop\Application\Runtime\Cache\Home\1223f42a89e823bf89547594651162de.php 第 238 行.
+NOTIC: [8] Undefined variable: number_price D:\project\itshop\Application\Runtime\Cache\Home\1223f42a89e823bf89547594651162de.php 第 239 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-25T15:53:49+08:00 ] 127.0.0.1 /Home/Cart/addCart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_cart` [ RunTime:0.0030s ]
+SQL: INSERT INTO `sp_cart` (`cart_goodsid`,`cart_memid`,`cart_num`,`cart_goodsattr`) VALUES ('14','4','3','机身颜色:黑色存储容量:256G运行内存:8G') [ RunTime:0.0040s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-25T16:13:21+08:00 ] 127.0.0.1 /Home/Cart/addCart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_cart` [ RunTime:0.0020s ]
+SQL: INSERT INTO `sp_cart` (`cart_goodsid`,`cart_memid`,`cart_num`,`cart_goodsattr`) VALUES ('14','4','3','机身颜色:黑色存储容量:256G运行内存:8G') [ RunTime:0.0030s ]
+SQL: SELECT SUM(cart_num) AS tp_sum FROM `sp_cart` WHERE ( cart_memid=4 ) LIMIT 1   [ RunTime:0.0000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as total_price) AS tp_sum FROM sp_cart c LEFT JOIN sp_goods g ON c.cart_goodsid=' at line 1
+ [ SQL语句 ] : SELECT SUM(c.cart_num*g.goods_price as total_price) AS tp_sum FROM sp_cart c LEFT JOIN sp_goods g ON c.cart_goodsid=g.goods_id  WHERE ( c.cart_memid=4 ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as total_price) AS tp_sum FROM sp_cart c LEFT JOIN sp_goods g ON c.cart_goodsid=' at line 1
+ [ SQL语句 ] : SELECT SUM(c.cart_num*g.goods_price as total_price) AS tp_sum FROM sp_cart c LEFT JOIN sp_goods g ON c.cart_goodsid=g.goods_id  WHERE ( c.cart_memid=4 ) LIMIT 1  
+
+[ 2017-06-25T16:13:34+08:00 ] 127.0.0.1 /Home/Index/detail/goods_id/14.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_goodspic` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_goodspic` WHERE ( pic_goodsid=14 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_goodsattr` [ RunTime:0.0030s ]
+SQL: SELECT a.attr_name,g.ga_attrvals FROM sp_goodsattr g LEFT JOIN sp_attribute a ON g.ga_attrid=a.attr_id  WHERE ( g.ga_goodsid=14 )  [ RunTime:0.0060s ]
+SQL: SELECT a.attr_name,g.ga_attrvals FROM sp_goodsattr g LEFT JOIN sp_attribute a ON g.ga_attrid=a.attr_id  WHERE ( g.ga_goodsid=14 and a.attr_type='单选' )  [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: number_price D:\project\itshop\Application\Runtime\Cache\Home\1223f42a89e823bf89547594651162de.php 第 238 行.
+NOTIC: [8] Undefined variable: number_price D:\project\itshop\Application\Runtime\Cache\Home\1223f42a89e823bf89547594651162de.php 第 239 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-25T16:14:12+08:00 ] 127.0.0.1 /Home/Index/detail/goods_id/14.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 14 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_goodspic` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sp_goodspic` WHERE ( pic_goodsid=14 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_goodsattr` [ RunTime:0.0030s ]
+SQL: SELECT a.attr_name,g.ga_attrvals FROM sp_goodsattr g LEFT JOIN sp_attribute a ON g.ga_attrid=a.attr_id  WHERE ( g.ga_goodsid=14 )  [ RunTime:0.0050s ]
+SQL: SELECT a.attr_name,g.ga_attrvals FROM sp_goodsattr g LEFT JOIN sp_attribute a ON g.ga_attrid=a.attr_id  WHERE ( g.ga_goodsid=14 and a.attr_type='单选' )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: number_price D:\project\itshop\Application\Runtime\Cache\Home\1223f42a89e823bf89547594651162de.php 第 238 行.
+NOTIC: [8] Undefined variable: number_price D:\project\itshop\Application\Runtime\Cache\Home\1223f42a89e823bf89547594651162de.php 第 239 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-06-25T16:14:16+08:00 ] 127.0.0.1 /Home/Cart/addCart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_cart` [ RunTime:0.0050s ]
+SQL: INSERT INTO `sp_cart` (`cart_goodsid`,`cart_memid`,`cart_num`,`cart_goodsattr`) VALUES ('14','4','1','机身颜色:金色,存储容量:128G,运行内存:4G,') [ RunTime:0.0020s ]
+SQL: SELECT SUM(cart_num) AS tp_sum FROM `sp_cart` WHERE ( cart_memid=4 ) LIMIT 1   [ RunTime:0.0010s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as total_price) AS tp_sum FROM sp_cart c LEFT JOIN sp_goods g ON c.cart_goodsid=' at line 1
+ [ SQL语句 ] : SELECT SUM(c.cart_num*g.goods_price as total_price) AS tp_sum FROM sp_cart c LEFT JOIN sp_goods g ON c.cart_goodsid=g.goods_id  WHERE ( c.cart_memid=4 ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as total_price) AS tp_sum FROM sp_cart c LEFT JOIN sp_goods g ON c.cart_goodsid=' at line 1
+ [ SQL语句 ] : SELECT SUM(c.cart_num*g.goods_price as total_price) AS tp_sum FROM sp_cart c LEFT JOIN sp_goods g ON c.cart_goodsid=g.goods_id  WHERE ( c.cart_memid=4 ) LIMIT 1  
+
+[ 2017-06-25T16:15:58+08:00 ] 127.0.0.1 /Home/Index/detail/goods_id/14.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 14 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_goodspic` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sp_goodspic` WHERE ( pic_goodsid=14 )  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sp_goodsattr` [ RunTime:0.0040s ]
+SQL: SELECT a.attr_name,g.ga_attrvals FROM sp_goodsattr g LEFT JOIN sp_attribute a ON g.ga_attrid=a.attr_id  WHERE ( g.ga_goodsid=14 )  [ RunTime:0.0010s ]
+SQL: SELECT a.attr_name,g.ga_attrvals FROM sp_goodsattr g LEFT JOIN sp_attribute a ON g.ga_attrid=a.attr_id  WHERE ( g.ga_goodsid=14 and a.attr_type='单选' )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: number_price D:\project\itshop\Application\Runtime\Cache\Home\1223f42a89e823bf89547594651162de.php 第 238 行.
+NOTIC: [8] Undefined variable: number_price D:\project\itshop\Application\Runtime\Cache\Home\1223f42a89e823bf89547594651162de.php 第 239 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-25T16:16:16+08:00 ] 127.0.0.1 /Home/Cart/addCart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_cart` [ RunTime:0.0020s ]
+SQL: INSERT INTO `sp_cart` (`cart_goodsid`,`cart_memid`,`cart_num`,`cart_goodsattr`) VALUES ('14','4','1','机身颜色:金色,存储容量:128G,运行内存:4G,') [ RunTime:0.0020s ]
+SQL: SELECT SUM(cart_num) AS tp_sum FROM `sp_cart` WHERE ( cart_memid=4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(c.cart_num*g.goods_price) AS tp_sum FROM sp_cart c LEFT JOIN sp_goods g ON c.cart_goodsid=g.goods_id  WHERE ( c.cart_memid=4 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Illegal string offset 'tp_sum' D:\project\itshop\ThinkPHP\Library\Think\Cart\Driver\MysqlCart.class.php 第 28 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-25T16:17:11+08:00 ] 127.0.0.1 /Home/Cart/addCart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_cart` [ RunTime:0.0020s ]
+SQL: INSERT INTO `sp_cart` (`cart_goodsid`,`cart_memid`,`cart_num`,`cart_goodsattr`) VALUES ('14','4','1','机身颜色:金色,存储容量:128G,运行内存:4G,') [ RunTime:0.0030s ]
+SQL: SELECT SUM(cart_num) AS tp_sum FROM `sp_cart` WHERE ( cart_memid=4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(c.cart_num*g.goods_price) AS tp_sum FROM sp_cart c LEFT JOIN sp_goods g ON c.cart_goodsid=g.goods_id  WHERE ( c.cart_memid=4 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Illegal string offset 'tp_sum' D:\project\itshop\ThinkPHP\Library\Think\Cart\Driver\MysqlCart.class.php 第 29 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-25T16:17:33+08:00 ] 127.0.0.1 /Home/Cart/addCart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_cart` [ RunTime:0.0020s ]
+SQL: INSERT INTO `sp_cart` (`cart_goodsid`,`cart_memid`,`cart_num`,`cart_goodsattr`) VALUES ('14','4','1','机身颜色:金色,存储容量:128G,运行内存:4G,') [ RunTime:0.0030s ]
+SQL: SELECT SUM(cart_num) AS tp_sum FROM `sp_cart` WHERE ( cart_memid=4 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(c.cart_num*g.goods_price) AS tp_sum FROM sp_cart c LEFT JOIN sp_goods g ON c.cart_goodsid=g.goods_id  WHERE ( c.cart_memid=4 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Illegal string offset 'tp_sum' D:\project\itshop\ThinkPHP\Library\Think\Cart\Driver\MysqlCart.class.php 第 29 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-06-25T16:18:05+08:00 ] 127.0.0.1 /Home/Cart/addCart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_cart` [ RunTime:0.0020s ]
+SQL: INSERT INTO `sp_cart` (`cart_goodsid`,`cart_memid`,`cart_num`,`cart_goodsattr`) VALUES ('14','4','1','机身颜色:金色,存储容量:128G,运行内存:4G,') [ RunTime:0.0030s ]
+SQL: SELECT SUM(cart_num) AS tp_sum FROM `sp_cart` WHERE ( cart_memid=4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(c.cart_num*g.goods_price) AS tp_sum FROM sp_cart c LEFT JOIN sp_goods g ON c.cart_goodsid=g.goods_id  WHERE ( c.cart_memid=4 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Illegal string offset 'tp_sum' D:\project\itshop\ThinkPHP\Library\Think\Cart\Driver\MysqlCart.class.php 第 29 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-06-25T16:18:36+08:00 ] 127.0.0.1 /Home/Index/detail/goods_id/17.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 17 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sp_goodspic` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sp_goodspic` WHERE ( pic_goodsid=17 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_goodsattr` [ RunTime:0.0080s ]
+SQL: SELECT a.attr_name,g.ga_attrvals FROM sp_goodsattr g LEFT JOIN sp_attribute a ON g.ga_attrid=a.attr_id  WHERE ( g.ga_goodsid=17 )  [ RunTime:0.0030s ]
+SQL: SELECT a.attr_name,g.ga_attrvals FROM sp_goodsattr g LEFT JOIN sp_attribute a ON g.ga_attrid=a.attr_id  WHERE ( g.ga_goodsid=17 and a.attr_type='单选' )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: number_price D:\project\itshop\Application\Runtime\Cache\Home\1223f42a89e823bf89547594651162de.php 第 238 行.
+NOTIC: [8] Undefined variable: number_price D:\project\itshop\Application\Runtime\Cache\Home\1223f42a89e823bf89547594651162de.php 第 239 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-25T16:18:45+08:00 ] 127.0.0.1 /Home/Cart/addCart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_cart` [ RunTime:0.0020s ]
+SQL: INSERT INTO `sp_cart` (`cart_goodsid`,`cart_memid`,`cart_num`,`cart_goodsattr`) VALUES ('17','4','1','内存类型:DDR4,硬盘类型:固态硬盘,') [ RunTime:0.0020s ]
+SQL: SELECT SUM(cart_num) AS tp_sum FROM `sp_cart` WHERE ( cart_memid=4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(c.cart_num*g.goods_price) AS tp_sum FROM sp_cart c LEFT JOIN sp_goods g ON c.cart_goodsid=g.goods_id  WHERE ( c.cart_memid=4 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-25T16:24:31+08:00 ] 127.0.0.1 /Home/Index/detail/goods_id/16.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 16 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_goodspic` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_goodspic` WHERE ( pic_goodsid=16 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_goodsattr` [ RunTime:0.0010s ]
+SQL: SELECT a.attr_name,g.ga_attrvals FROM sp_goodsattr g LEFT JOIN sp_attribute a ON g.ga_attrid=a.attr_id  WHERE ( g.ga_goodsid=16 )  [ RunTime:0.0000s ]
+SQL: SELECT a.attr_name,g.ga_attrvals FROM sp_goodsattr g LEFT JOIN sp_attribute a ON g.ga_attrid=a.attr_id  WHERE ( g.ga_goodsid=16 and a.attr_type='单选' )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: number_price D:\project\itshop\Application\Runtime\Cache\Home\1223f42a89e823bf89547594651162de.php 第 238 行.
+NOTIC: [8] Undefined variable: number_price D:\project\itshop\Application\Runtime\Cache\Home\1223f42a89e823bf89547594651162de.php 第 239 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-25T16:24:36+08:00 ] 127.0.0.1 /Home/Cart/addCart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_cart` [ RunTime:0.0030s ]
+SQL: INSERT INTO `sp_cart` (`cart_goodsid`,`cart_memid`,`cart_num`,`cart_goodsattr`) VALUES ('16','4','1','机身颜色:白色,存储容量:64G,运行内存:3G,') [ RunTime:0.0040s ]
+SQL: SELECT SUM(cart_num) AS tp_sum FROM `sp_cart` WHERE ( cart_memid=4 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(c.cart_num*g.goods_price) AS tp_sum FROM sp_cart c LEFT JOIN sp_goods g ON c.cart_goodsid=g.goods_id  WHERE ( c.cart_memid=4 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-25T16:42:57+08:00 ] 127.0.0.1 /Home/Cart/flow1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: ac D:\project\itshop\Application\Runtime\Cache\Home\632645a6365f3d366ac91b0ef93b460e.php 第 139 行.
+NOTIC: [8] Undefined variable: ac D:\project\itshop\Application\Runtime\Cache\Home\632645a6365f3d366ac91b0ef93b460e.php 第 150 行.
+NOTIC: [8] Undefined variable: cateA D:\project\itshop\Application\Runtime\Cache\Home\632645a6365f3d366ac91b0ef93b460e.php 第 153 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-25T16:43:22+08:00 ] 127.0.0.1 /Home/Cart/flow1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-25T16:55:43+08:00 ] 127.0.0.1 /Home/Cart/flow1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_cart` [ RunTime:0.0030s ]
+SQL: SELECT c.cart_id,g.goods_id,g.goods_name,g.goods_small_logo,g.goods_price,c.cart_num,c.cart_num*g.goods_price as total_price FROM sp_cart c left join sp_goods g on c.cart_goodsid=g.goods_id  WHERE ( c.cart_memid=4 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-25T17:02:47+08:00 ] 127.0.0.1 /Home/Cart/flow1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_cart` [ RunTime:0.0020s ]
+SQL: SELECT c.cart_id,g.goods_id,g.goods_name,g.goods_small_logo,c.cart_goodsattr,g.goods_price,c.cart_num,c.cart_num*g.goods_price as total_price FROM sp_cart c left join sp_goods g on c.cart_goodsid=g.goods_id  WHERE ( c.cart_memid=4 )  [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-25T17:04:35+08:00 ] 127.0.0.1 /Home/Cart/flow1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_cart` [ RunTime:0.0020s ]
+SQL: SELECT c.cart_id,g.goods_id,g.goods_name,g.goods_small_logo,c.cart_goodsattr,g.goods_price,c.cart_num,c.cart_num*g.goods_price as total_price FROM sp_cart c left join sp_goods g on c.cart_goodsid=g.goods_id  WHERE ( c.cart_memid=4 )  [ RunTime:0.0000s ]
+SQL: SELECT SUM(cart_num) AS tp_sum FROM `sp_cart` WHERE ( cart_memid=4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(c.cart_num*g.goods_price) AS tp_sum FROM sp_cart c LEFT JOIN sp_goods g ON c.cart_goodsid=g.goods_id  WHERE ( c.cart_memid=4 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-06-25T17:17:37+08:00 ] 127.0.0.1 /Home/Cart/flow1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_cart` [ RunTime:0.0100s ]
+SQL: SELECT c.cart_id,g.goods_id,g.goods_name,g.goods_small_logo,c.cart_goodsattr,g.goods_price,c.cart_num,c.cart_num*g.goods_price as total_price FROM sp_cart c left join sp_goods g on c.cart_goodsid=g.goods_id  WHERE ( c.cart_memid=4 )  [ RunTime:0.0010s ]
+SQL: SELECT SUM(cart_num) AS tp_sum FROM `sp_cart` WHERE ( cart_memid=4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(c.cart_num*g.goods_price) AS tp_sum FROM sp_cart c LEFT JOIN sp_goods g ON c.cart_goodsid=g.goods_id  WHERE ( c.cart_memid=4 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-25T17:17:40+08:00 ] 127.0.0.1 /Home/Cart/delCart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_cart` [ RunTime:0.0010s ]
+SQL: DELETE FROM `sp_cart` WHERE `cart_id` = 11 [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-25T17:22:07+08:00 ] 127.0.0.1 /Home/Cart/flow1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_cart` [ RunTime:0.0020s ]
+SQL: SELECT c.cart_id,g.goods_id,g.goods_name,g.goods_small_logo,c.cart_goodsattr,g.goods_price,c.cart_num,c.cart_num*g.goods_price as total_price FROM sp_cart c left join sp_goods g on c.cart_goodsid=g.goods_id  WHERE ( c.cart_memid=4 )  [ RunTime:0.0000s ]
+SQL: SELECT SUM(cart_num) AS tp_sum FROM `sp_cart` WHERE ( cart_memid=4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(c.cart_num*g.goods_price) AS tp_sum FROM sp_cart c LEFT JOIN sp_goods g ON c.cart_goodsid=g.goods_id  WHERE ( c.cart_memid=4 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-25T17:22:19+08:00 ] 127.0.0.1 /Home/Cart/delCart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_cart` [ RunTime:0.0020s ]
+SQL: DELETE FROM `sp_cart` WHERE `cart_id` = 2 [ RunTime:0.0040s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-25T17:39:49+08:00 ] 127.0.0.1 /Home/Index/detail/goods_id/14.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 14 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_goodspic` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_goodspic` WHERE ( pic_goodsid=14 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_goodsattr` [ RunTime:0.0020s ]
+SQL: SELECT a.attr_name,g.ga_attrvals FROM sp_goodsattr g LEFT JOIN sp_attribute a ON g.ga_attrid=a.attr_id  WHERE ( g.ga_goodsid=14 )  [ RunTime:0.0010s ]
+SQL: SELECT a.attr_name,g.ga_attrvals FROM sp_goodsattr g LEFT JOIN sp_attribute a ON g.ga_attrid=a.attr_id  WHERE ( g.ga_goodsid=14 and a.attr_type='单选' )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: mem_id D:\project\itshop\Application\Runtime\Cache\Home\1223f42a89e823bf89547594651162de.php 第 29 行.
+NOTIC: [8] Undefined variable: number_price D:\project\itshop\Application\Runtime\Cache\Home\1223f42a89e823bf89547594651162de.php 第 238 行.
+NOTIC: [8] Undefined variable: number_price D:\project\itshop\Application\Runtime\Cache\Home\1223f42a89e823bf89547594651162de.php 第 239 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-25T17:45:56+08:00 ] 127.0.0.1 /Home/Index/detail/goods_id/15.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_goodspic` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_goodspic` WHERE ( pic_goodsid=15 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_goodsattr` [ RunTime:0.0020s ]
+SQL: SELECT a.attr_name,g.ga_attrvals FROM sp_goodsattr g LEFT JOIN sp_attribute a ON g.ga_attrid=a.attr_id  WHERE ( g.ga_goodsid=15 )  [ RunTime:0.0000s ]
+SQL: SELECT a.attr_name,g.ga_attrvals FROM sp_goodsattr g LEFT JOIN sp_attribute a ON g.ga_attrid=a.attr_id  WHERE ( g.ga_goodsid=15 and a.attr_type='单选' )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: mem_id D:\project\itshop\Application\Runtime\Cache\Home\1223f42a89e823bf89547594651162de.php 第 29 行.
+NOTIC: [8] Undefined variable: number_price D:\project\itshop\Application\Runtime\Cache\Home\1223f42a89e823bf89547594651162de.php 第 238 行.
+NOTIC: [8] Undefined variable: number_price D:\project\itshop\Application\Runtime\Cache\Home\1223f42a89e823bf89547594651162de.php 第 239 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-25T17:47:35+08:00 ] 127.0.0.1 /Home/Index/detail/goods_id/14.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_cate` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sp_cate`  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_goodspic` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_goodspic` WHERE ( pic_goodsid=14 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_goodsattr` [ RunTime:0.0010s ]
+SQL: SELECT a.attr_name,g.ga_attrvals FROM sp_goodsattr g LEFT JOIN sp_attribute a ON g.ga_attrid=a.attr_id  WHERE ( g.ga_goodsid=14 )  [ RunTime:0.0010s ]
+SQL: SELECT a.attr_name,g.ga_attrvals FROM sp_goodsattr g LEFT JOIN sp_attribute a ON g.ga_attrid=a.attr_id  WHERE ( g.ga_goodsid=14 and a.attr_type='单选' )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: mem_id D:\project\itshop\Application\Runtime\Cache\Home\1223f42a89e823bf89547594651162de.php 第 29 行.
+NOTIC: [8] Undefined variable: number_price D:\project\itshop\Application\Runtime\Cache\Home\1223f42a89e823bf89547594651162de.php 第 238 行.
+NOTIC: [8] Undefined variable: number_price D:\project\itshop\Application\Runtime\Cache\Home\1223f42a89e823bf89547594651162de.php 第 239 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
