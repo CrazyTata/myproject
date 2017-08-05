@@ -1,0 +1,57 @@
+
+<!--引入公共的头部-->
+{include file="../Pub/_head.html"}
+
+<div class="container clearfix">
+    
+<!--引入公共的左侧-->
+{include file="../Pub/_left.html"}
+    
+    <!--右侧主操作区-->
+    <div class="main-wrap">
+
+        <div class="crumb-wrap">
+            <div class="crumb-list"><i class="icon-font"></i>
+                <a href="?p=back">首页</a>
+                <span class="crumb-step">&gt;</span>
+                <span class="crumb-name">分类管理</span>
+                <span class="crumb-step">&gt;</span>
+                <span class="crumb-name">修改分类</span>
+            </div>
+        </div>
+        <div class="result-wrap">
+            <div class="result-content">
+                <form action="/index.php?p=back&c=cate&a=upd" method="post" id="myform" >
+                <input type="hidden" name="cate_id" value="{$info.cate_id}" />
+                    <table class="insert-tab" width="100%">
+                        <tbody>
+<tr><th><i class="require-red">*</i>分类名称：</th>
+    <td><input class="common-text required" id="title" name="cate_name" size="50" value="{$info.cate_name}" type="text"></td>
+</tr>
+<tr><th>分类描述：</th>
+    <td><textarea name="cate_description" class="common-textarea" cols="60" rows="4">{$info.cate_description}</textarea></td>
+</tr>
+<tr><th>是否显示：</th>
+    <td>
+    <input type="radio" name="is_show" value="0"
+    {if $info.is_show eq '0'} checked='checked'{/if}>显示
+    <input type="radio" name="is_show" value="1"
+    {if $info.is_show eq '1'} checked='checked'{/if}>不显示
+    </td>
+</tr>
+<tr><th></th>
+    <td><input class="btn btn-primary btn6 mr10" value="提交" type="submit">
+        <input class="btn btn6" onclick="history.go(-1)" value="返回" type="button"></td>
+</tr>
+                        </tbody></table>
+                </form>
+            </div>
+
+        </div>
+
+    </div>
+    <!--/右侧主操作区-->
+</div>
+
+</body>
+</html>

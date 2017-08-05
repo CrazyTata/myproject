@@ -1,0 +1,21 @@
+<!--文章-->
+{foreach $bloginfo as $k => $v}
+<div class="wz">
+  <h3><a href="/b-8.html">{$v.blog_title}</a></h3>
+   <dl>
+     <dd>
+      <div class="dd_text_1">{mb_substr($v.blog_content,0,153,'utf-8')}...</div>
+       <p class="dd_text_2">
+        <span class="left author">user1</span>
+        <span class="left sj">时间：{$v.add_time|date_format:"%Y-%m-%d %H:%M:%S"}</span>
+        <span class="left fl">分类：<a href="?cid=1">{$v.cate_name}</a></span>
+        <span class="left yd">
+          <a href="/index.php?p=home&c=blog&a=detail&blog_id={$v.blog_id}" target="_blank">阅读全文</a></span>
+       </p>
+      <div class="clear"></div>
+     </dd>
+     <div class="clear"></div>
+   </dl>
+</div>
+{/foreach}
+<!--文章 end-->
